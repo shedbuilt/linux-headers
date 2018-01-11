@@ -1,5 +1,5 @@
 NAME=linux-headers
-VERSION=4.14.9
-REVISION=2
-SRC=https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.9.tar.xz
-SRCMD5=7d8f1f7f8143ad4d17f45c7c62a9687a
+VERSION=4.14.13
+REVISION=3
+SRC=https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.13.tar.xz
+SRCMD5=4e8bb562f8fd33d5ef1feb0435ed2b02
