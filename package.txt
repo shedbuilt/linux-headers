@@ -1,6 +1,6 @@
 NAME=linux-headers
-VERSION=4.14.15
-REVISION=4
-SRC=https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.15.tar.xz
-SRCMD5=e1051f6b15d6399a5de2441dd4e15537
+VERSION=4.16rc5
+REVISION=5
+SRC=https://git.kernel.org/torvalds/t/linux-4.16-rc5.tar.gz
+SRCMD5=2ca30f78f9bb36ef7999d64748671a96
 STRIP=no
