@@ -4,5 +4,4 @@ REVISION=7
 LICENSE=GPL-2.0-only
 SRC=https://git.kernel.org/torvalds/t/linux-4.16-rc7.tar.gz
 SRCMD5=e23d5ce36687afa5dbf7469ad8dbaa1c
-BINFILE=${NAME}_${VERSION}-${REVISION}_${SHED_RELEASE}.${BINARCHEXT}
 STRIP=no
