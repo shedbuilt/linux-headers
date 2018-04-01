@@ -1,7 +1,7 @@
 NAME=linux-headers
-VERSION=4.16rc7
-REVISION=7
+VERSION=4.16
+REVISION=8
 LICENSE=GPL-2.0-only
-SRC=https://git.kernel.org/torvalds/t/linux-4.16-rc7.tar.gz
-SRCMD5=e23d5ce36687afa5dbf7469ad8dbaa1c
+SRC=https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.16.tar.xz
+SRCMD5=1357fb4ee7c288fdeac5d4e0048f5c18
 STRIP=no
