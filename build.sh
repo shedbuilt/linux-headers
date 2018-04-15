@@ -1,12 +1,12 @@
 #!/bin/bash
-case "$SHED_BUILDMODE" in
+case "$SHED_BUILD_MODE" in
     toolchain)
-        mkdir -v "${SHED_FAKEROOT}/tools" &&
-        make INSTALL_HDR_PATH="${SHED_FAKEROOT}/tools" headers_install
+        mkdir -v "${SHED_FAKE_ROOT}/tools" &&
+        make INSTALL_HDR_PATH="${SHED_FAKE_ROOT}/tools" headers_install
     ;;
     *)
-        mkdir -v "${SHED_FAKEROOT}/usr" &&
-        make INSTALL_HDR_PATH="${SHED_FAKEROOT}/usr" headers_install &&
-        find "${SHED_FAKEROOT}/usr/include" \( -name .install -o -name ..install.cmd \) -delete
+        mkdir -v "${SHED_FAKE_ROOT}/usr" &&
+        make INSTALL_HDR_PATH="${SHED_FAKE_ROOT}/usr" headers_install &&
+        find "${SHED_FAKE_ROOT}/usr/include" \( -name .install -o -name ..install.cmd \) -delete
     ;;
 esac

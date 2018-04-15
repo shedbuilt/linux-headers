@@ -1,6 +1,6 @@
 NAME=linux-headers
 VERSION=4.16
-REVISION=8
+REVISION=1
 LICENSE=GPL-2.0-only
 SRC=https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.16.tar.xz
 SRCMD5=1357fb4ee7c288fdeac5d4e0048f5c18
