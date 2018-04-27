@@ -1,7 +1,7 @@
 NAME=linux-headers
-VERSION=4.16.3
-REVISION=9
+VERSION=4.16.5
+REVISION=10
 LICENSE=GPL-2.0-only
-SRC=https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.16.3.tar.xz
-SRCMD5=17201698f8b1cd8d33866599a581ddf0
+SRC=https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.16.5.tar.xz
+SRCMD5=2b5760ab8ec97066644337945f9bc0d8
 STRIP=no
