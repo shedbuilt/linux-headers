@@ -8,4 +8,4 @@ fi
 # Build and Install
 mkdir -v "$SHED_PKG_LOCAL_HEADER_PATH" &&
 make INSTALL_HDR_PATH="$SHED_PKG_LOCAL_HEADER_PATH" headers_install &&
-find "$SHED_PKG_LOCAL_HEADER_PATH"/include" \( -name .install -o -name ..install.cmd \) -delete
+find "${SHED_PKG_LOCAL_HEADER_PATH}"/include \( -name .install -o -name ..install.cmd \) -delete
