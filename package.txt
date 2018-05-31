@@ -1,9 +1,9 @@
 NAME=linux-headers
-VERSION=4.17.0-rc5
+VERSION=4.17.0-rc7
 REVISION=1
 LICENSE=GPL-2.0-only
-SRC=https://git.kernel.org/torvalds/t/linux-4.17-rc6.tar.gz
-SRCMD5=287140c1216a4ea9b9916e69beb43708
+SRC=https://git.kernel.org/torvalds/t/linux-4.17-rc7.tar.gz
+SRCMD5=ecf0b54e056d67c7ea7c9bf4796ac0c3
 STRIP=no
 OPTIONS=toolchain|bootstrap|release
 DEFAULTS=release
