@@ -1,9 +1,9 @@
 NAME=linux-headers
-VERSION=4.17.19
-REVISION=5
+VERSION=4.19-rc2
+REVISION=6
 LICENSE=GPL-2.0-only
-SRC=https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.17.19.tar.xz
-SRCMD5=ca4579babf2958aac4f686d49b6b8c66
+SRC=https://git.kernel.org/torvalds/t/linux-4.19-rc2.tar.gz
+SRCMD5=ab0ca391e6506a9712dab5037c204f99
 STRIP=no
 OPTIONS=toolchain|bootstrap|release
 DEFAULTS=release
