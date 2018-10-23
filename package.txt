@@ -1,9 +1,9 @@
 NAME=linux-headers
-VERSION=4.19.0-rc8
-REVISION=10
+VERSION=4.19.0
+REVISION=11
 LICENSE=GPL-2.0-only
-SRC=https://git.kernel.org/torvalds/t/linux-4.19-rc8.tar.gz
-SRCMD5=dc5afdb1a4325dbbc6c68e737ef2ec96
+SRC=https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.tar.xz
+SRCMD5=740a90cf810c2105df8ee12e5d0bb900
 STRIP=no
 OPTIONS=toolchain|bootstrap|release
 DEFAULTS=release
