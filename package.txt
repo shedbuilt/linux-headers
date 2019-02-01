@@ -1,7 +1,9 @@
 NAME=linux-headers
-VERSION=4.16.7
+VERSION=4.19.0
 REVISION=11
 LICENSE=GPL-2.0-only
-SRC=https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.16.7.tar.xz
-SRCMD5=9795a3187c791e3b79153519733f045d
+SRC=https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.tar.xz
+SRCMD5=740a90cf810c2105df8ee12e5d0bb900
 STRIP=no
+OPTIONS=toolchain|bootstrap|release
+DEFAULTS=release
